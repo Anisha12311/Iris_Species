@@ -14,15 +14,15 @@ print(iris.head())
 
 print(iris['Species'].unique())
 
-# describe
-
 # ---------------------***********************----------------------------
+
+# describe
 
 print(iris.describe(include = 'all'))
 
-# information about dataset
-
 # ---------------------***********************----------------------------
+
+# information about dataset
 
 print(iris.info())
 
